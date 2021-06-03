@@ -1,4 +1,4 @@
-Google Drive Folder Listener
+Google Drive Folder Lister
 ========================================================================================
 
 Automatically finds and lists files in given Folder
@@ -10,7 +10,7 @@ Go to Google Console Platform
 
     Obtain client_id.json from - GoogleAPI `<https://developers.google.com/adwords/api/docs/guides/authentication>`_
     Place file in root of GoogleAPIMoviePuller folder 
-    
+
 install requirements:
 
 .. code:: bash
