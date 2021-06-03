@@ -18,7 +18,7 @@ if __name__ == "__main__":
             res = driveCaller(folder_id)
             print ('\nYour output =>\n')
             print (res)
-            print ('\n ... sending output to file\n\n')
+            print ('\n ... sending output dto file\n\n')
 
             # write contents to file 
             f = open('filecontents.txt','w')
