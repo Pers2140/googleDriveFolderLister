@@ -15,4 +15,4 @@ install requirements:
 
 .. code:: bash
 
-    pip install httplib2 oauth2client googleapiclient 
+    pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
