@@ -7,8 +7,26 @@ import googleDriveAPI
 
 if __name__ == "__main__":
 
-    folder_id = argv[1]
+    try:
+        # exampel folder id "0B69RRb17QL4pflctSUpZYmlScVlMNmFKVnFuS1RLT1BHR1BGZkR2eW5YYmhiQlZMSmo2Nm8"
+        # Specify the folder 
+        # Get user input
+        print ('\nEnter folder id: \n')
+        folder_id = input()
+        res = driveCaller(folder_id)
+        print ('\nYour output =>\n')
+        print (res)
+        print ('\n ... sending output to file\n\n')
+
+        # write contents to file 
+        f = open('filecontents.txt','w')
+        f.write(str(res))
+        f.close()
+    except:
+
+        print ('error has occured')
+
+
+
+        
     
-    res = driveCaller(folder_id)
-    
-    print (res)
